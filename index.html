@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>طرح حامی</title>
-<style>html,body{margin:0;background:#e8eeed}</style></head>
+<style>html,body{margin:0;background:#e8eeed}</style><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#0f766e"><link rel="apple-touch-icon" href="icons/icon-192.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"></head>
 <body>
 <script>
 (function(){
@@ -12,4 +12,4 @@ var h=new TextDecoder("utf-8").decode(u);
 setTimeout(function(){document.open();document.write(h);document.close()},0);
 }catch(e){document.body.textContent="خطا در بارگذاری فایل"}
 })();
-</script></body></html>
+</script><script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("sw.js")})}</script></body></html>
